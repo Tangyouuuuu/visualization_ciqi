@@ -1,0 +1,83 @@
+body {
+    font-family:Arial, sans-serif, Arial, Helvetica, "Segoe UI Black", 微软雅黑;
+    color: #584d4d;
+    margin:0 auto;
+    padding:0;
+    line-height:50px;
+    background: #e8e7d7 url(../images/pattern.png) repeat;
+}
+.main {
+    width:85%;
+    height: auto;
+    background-color: #f8f7ed;
+    margin:0 auto;
+    padding:0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+ul {
+    width: 85%;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #39231f;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+li {
+    text-align: center;
+    font-size: 30px;
+    font-family: 华文新魏;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+/* 当鼠标悬停时把链接颜色更改为 #111（黑色） */
+li a:hover {
+    background-color: #4c3c3c;
+}
+select {
+    float: left;
+    position: relative;
+    right: 100px;
+    top: 10px;
+    bottom: 400px;
+}
+.selects {
+    float: right;
+    padding: 30px;
+    right: 20px;
+}
+div.title {
+    border-top: 1px solid #a59c99;
+    text-align: center;
+}
+
+div.Relation {
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+}
+div.Culture {
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+}
+
+h2 {
+    font-family: 华文楷体;
+}
+div.relationship {
+    margin: 20px;
+    text-align:center;
+    width: 85%;
+    height: auto;
+    touch-action: auto;
+}
