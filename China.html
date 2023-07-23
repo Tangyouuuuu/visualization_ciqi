@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <title></title>
+    <script src="d3.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- 将GeoJson文件以js对象放在js文件中-->
+    <script src="./utils/ChinaMap.js"></script>
+    <script src="./utils/relationData.js"></script>
+    <script src="./utils/cultureData.js"></script>
+    <script src="utils/MapData.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+<!--头部导航栏-->
+<div class="head">
+    <ul class="top">
+        <li><a href="China.html">中国瓷器文化</a></li>
+    </ul>
+</div>
+<div class="main">
+    <!--    地图显示区域-->
+    <div class="chinamap">
+        <!--        地图区域-->
+        <map class="map" id="China"></map>
+        <!--        查找区域-->
+        <div class="selects">
+            <div class="selectBox" id="selectBox"></div>
+            <div class="selectArea" id="selectArea"></div>
+            <div class="selectText" id="selectText"></div>
+        </div>
+    </div>
+    <!--    陶瓷发展史-->
+    <div class="Relation">
+        <div class="title">
+            <h2>◈ 瓷器·历史 ◈</h2>
+        </div>
+        <div class="relationship">
+        </div>
+    </div>
+    <!--    陶瓷文化-->
+    <div class="Culture">
+        <div class="title">
+            <h2>◈ 瓷器·文化 ◈</h2>
+        </div>
+        <div class="culture">
+        </div>
+    </div>
+</div>
+</body>
+<script src="JS/China.js"></script>
+<script src="JS/chart.js"></script>
+<script src="JS/functions.js"></script>
+<script src="JS/relationship.js"></script>
+<script src="JS/culture.js"></script>
+</html>
